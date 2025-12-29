@@ -1,0 +1,107 @@
+# macOS system files
+.DS_Store
+
+# Xcode
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.xcuserstate
+*.yarn
+**/.xcode.env.local
+
+
+# Android/IntelliJ
+#
+.idea/
+.gradle/
+local.properties
+*.iml
+*.hprof
+.cxx/
+*.keystore
+!debug.keystore
+index.android.bundle
+debug/
+release/
+drawable-*/
+raw/
+*android/.gradle
+*.dex
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/build/
+captures/
+.externalNativeBuild/
+
+# Android Studio generated files and folders
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+output.json
+/android/app/build/intermediates/
+/android/app/build/intermediates/apk/debug/
+
+# node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+podfile.lock
+Gemfile.lock
+
+# fastlane (not recommended to store screenshots or reports)
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots/
+**/fastlane/test_output/
+
+# Bundle artifact
+*.jsbundle
+
+# CocoaPods
+# Exclude all pods
+**/Pods/
+/vendor/bundle/
+
+# But include specific files you want (e.g., the workspace or other Hermes-related files)
+!ios/Pods/Podfile
+!ios/Pods/Podfile.lock
+!ios/Pods/Target\ Support\ Files/
+!ios/Pods/SomeSpecificPod/SomeImportantFile.m
+!ios/Pods/React/React.xcframework/
+!ios/Pods/hermes-engine/
+
+# Temporary files created by Metro (React Native)
+.metro-health-check*
+
+# testing
+/coverage/
+android/local.properties
+android/.gradle
+android/build
+android/local.properties
+android/.gradle/file-system.probe
+android/.gradle/buildOutputCleanup/buildOutputCleanup.lock
+android/.gradle/buildOutputCleanup/cache.properties
+android/.gradle/buildOutputCleanup/outputFiles.bin
+android/.gradle/noVersion/buildLogic.lock
+android/.kotlin/errors/errors-1744804630109.log
+android/.kotlin/errors/errors-1749110702959.log
+android/build/generated/autolinking/autolinking.json
+android/build/generated/autolinking/package.json.sha
+android/build/generated/autolinking/yarn.lock.sha
